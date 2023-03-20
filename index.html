@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+
+  <div>
+    <div id="title">HTML</div>
+    <div id="shield"></div>
+
+    <fieldset>
+      <legend> Título </legend>
+      <!-- tamanho da fonte -->
+      <label> font-size: <span id="t-fs" /> </label>
+      <input type="range" min="1" max="10" value="5" oninput="onRange('title','t-fs','fontSize',this.value)" />
+    </fieldset>
+
+    <fieldset>
+      <legend> Escudo </legend>
+      <!-- tamanho da fonte -->
+      <label> font-size: <span id="st-fs" /></label>
+      <input type="range" min="1" max="10" value="5"
+        oninput="onRange('shield-title', 'st-fs','fontSize',this.value)" />
+      <!-- escudo -->
+      <label> width: <span id="s-w"/> </label>
+      <input type="range" min="1" max="20" value="10" oninput="onRange('shield', 's-w', 'width', this.value)" />
+      
+      <label> height: <span id="s-h"/> </label>
+      <input type="range" min="0" max="20" value="0" oninput="onRange('shield', 's-h', 'height', this.value)" />
+
+    </fieldset>
+
+    <div id="css_id"></div>
+
+  </div>
+  <script src="index.js"></script>
+ 
+</body>
+
+</html>

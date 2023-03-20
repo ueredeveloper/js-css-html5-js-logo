@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Gotham Ultra;
+    src: url("font/GothamUltra.otf") format("opentype");
+}
+
+div{
+  font-family: 'Gotham Ultra', sans-serif;
+}
+
+#title {
+  font-size: 4rem;
+}
+#shield {
+  width: 20px;
+	height: 0px;
+	border-left: 20px solid red;
+	border-right: 20px solid green;
+	border-top: 50px solid #555;
+  
+}
+#shield-title {
+  text-align: center;
+  font-size: 12px;
+}
